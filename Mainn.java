@@ -19,7 +19,7 @@ class Prime{
     static void checkPrime(int n){
         //   int n =5;
         int i, flag=0;
-        for(i=n;i<=n*n;i++)
+        for(i=0;i<=n;i++)
         {
             if(n%i==0)
                 flag++;
